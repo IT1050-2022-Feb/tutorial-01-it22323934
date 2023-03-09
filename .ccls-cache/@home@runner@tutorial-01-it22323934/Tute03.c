@@ -17,11 +17,11 @@ int main() {
   int number;
   int x=1;
   printf("Enter the number: ");
-  scanf("%d",&number);
-  while(x<=number){
-    sum=x+sum;
-    x++;
+  scanf("%d",&number);//assigns the user input value to the number variable.
+  while(x<=number){//the loop will execute number x becomes greater than the user input number.
+    sum=x+sum;//calculates the sum.
+    x++;//increment.
   }
-  printf("The sum:%d",sum);
+  printf("The sum:%d",sum);//displays the final sum
   return 0;
 }

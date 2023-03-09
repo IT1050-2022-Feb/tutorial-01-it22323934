@@ -10,12 +10,12 @@ int main() {
   float sum=0;
   float average;
   printf("Enter mark 1: ");
-  scanf("%f",&mark1);
+  scanf("%f",&mark1);//assigns the value the user entered to the mark1 variable.
   printf("Enter mark 2:");
-  scanf("%f",&mark2);
-  sum=mark1+mark2;
-  average=sum/2;
-  printf("The average is :%.2f",average);
+  scanf("%f",&mark2);//assigns the value the user entered to the mark2 variable.
+  sum=mark1+mark2;//calculates the sum.
+  average=sum/2;//calculates the average.
+  printf("The average is :%.2f",average//prints the average.
   return 0;
 }
 

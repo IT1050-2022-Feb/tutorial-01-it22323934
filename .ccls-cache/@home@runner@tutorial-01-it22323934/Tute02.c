@@ -22,16 +22,16 @@ int main() {
   float distance;
   float price;
   printf("Enter the distance: ");
-  scanf("%f",&distance);
-  if(distance<=30&&distance>0){
-    price=distance*50;
-    printf("The total price is:%.2f",price);
+  scanf("%f",&distance);//assigns the user entered value to distance variable.
+  if(distance<=30&&distance>0){//checks if the distance is less than 30 and greater than 0 if the condition is true this code will be executed.
+    price=distance*50;//calculates the price.
+    printf("The total price is:%.2f",price);//displays the price.
   }
-  else if(distance>30){
-    price=30*50+((distance-30)*40);
-    printf("The total price is:%.2f",price);
+  else if(distance>30){//checks if the distance is greater than 30.if the condition is true this code will be executed.
+    price=30*50+((distance-30)*40);//calculates the price.
+    printf("The total price is:%.2f",price);//displays the price.
   }
-  else{
+  else{//checks to see if the user inputs a invalid value such as a negative value for the distance.
     printf("Invalid input");
   }
   return 0;
